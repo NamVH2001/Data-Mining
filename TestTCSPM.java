@@ -1,34 +1,28 @@
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URL;
-import java.util.BitSet;
+// import java.util.BitSet;
 
 public class TestTCSPM {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		// load a sequence database
-		String input = fileToPath("syn60K.txt");
-		String output = ".//output1.txt";
+		String input = fileToPath("sample_sequences.txt");
+		String output = ".//output_sample.txt";
 
-		// build a query pattern (842, 4616)(7752)>
-		Itemset is = new Itemset();
-		is.addItem(842);
-		is.addItem(4616);
+		// Item IDs use A=1, B=2, ..., Z=26. Query: V then R.
 		Sequence Query = new Sequence();
-
-		//Query.addItemset(new Itemset(196));
-
-		Query.addItemset(is);
-		Query.addItemset(new Itemset(7752));
-		//System.out.println("Query sequene: " + Query);
+		Query.addItemset(new Itemset(22)); // V
+		Query.addItemset(new Itemset(18)); // R
+		System.out.println("Query sequence: " + Query);
 
 		// create an instance of the algorithm
 
 		//TCSPM
-        //AlgoTCSPM11 algo1 = new AlgoTCSPM11();
-        //algo1.runAlgorithm(input, output, 45, Query);
-        //algo1.printStatistics();
+        AlgoTCSPM11 algo1 = new AlgoTCSPM11();
+		algo1.runAlgorithm(input, output, 3, Query);
+        algo1.printStatistics();
                  
         //TCSPM+
 

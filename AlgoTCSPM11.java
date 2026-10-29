@@ -25,15 +25,19 @@ public class AlgoTCSPM11 {
 	BufferedWriter writer = null;
 
 	/** MemoryDB： sequence that contains the query sequence */
+	/*** Database D' ***/
 	List<int[]> MemoryDB = new ArrayList<int[]>();
 
 	/** AbsDB： sequence that contains the query sequence */
+	/*** Reverse Matching ***/
 	List<Integer> AbsIndx = new ArrayList<Integer>();
 
 	// record the sequence id for each item
+	/*** Lưu support từng Item ***/
 	Map<Integer, List<Integer>> mapSequenceIDs = new HashMap<Integer, List<Integer>>();
 	
 	// recored the all positions for each item in all sequences
+	/*** Sequence Chain ***/
 	Map<Integer, List<PseudoSequence>> itemIndexMap = new HashMap<Integer, List<PseudoSequence>>();
 
 	public void runAlgorithm(String input, String outputFilePath, int minsupAbs, Sequence query) throws IOException {

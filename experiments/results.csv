@@ -1,0 +1,82 @@
+﻿algo,dataset,query,minsup,candidates,patterns,timeSec,maxMemMB
+TCSPM,e_shop_sorted.txt,28 212;280,5600,505,3,10.146,1351.0
+TCSPM+,e_shop_sorted.txt,28 212;280,5600,98,3,2.766,571.4
+TCSPM,e_shop_sorted.txt,28 212;280,5300,963,7,18.984,1370.7
+TCSPM+,e_shop_sorted.txt,28 212;280,5300,158,7,4.318,934.9
+TCSPM,e_shop_sorted.txt,28 212;280,5000,1795,7,44.853,1762.6
+TCSPM+,e_shop_sorted.txt,28 212;280,5000,212,7,4.963,1179.2
+TCSPM,e_shop_sorted.txt,28 212;280,4700,3322,22,103.470,1888.7
+TCSPM+,e_shop_sorted.txt,28 212;280,4700,396,22,9.868,1264.6
+TCSPM,e_shop_sorted.txt,28 212;280,4400,6387,36,99.926,1764.7
+TCSPM+,e_shop_sorted.txt,28 212;280,4400,651,36,10.567,1310.2
+TCSPM,e_shop_sorted.txt,28 212;280,4100,12588,58,170.126,1753.0
+TCSPM+,e_shop_sorted.txt,28 212;280,4100,1205,58,21.285,1434.8
+TCSPM,e_shop_sorted.txt,28 212;280,3800,25937,131,396.396,1895.1
+TCSPM+,e_shop_sorted.txt,28 212;280,3800,2075,131,30.607,1620.7
+TCSPM,e_shop_sorted.txt,28 212;280,3500,55378,196,609.166,2129.8
+TCSPM+,e_shop_sorted.txt,28 212;280,3500,3975,196,46.821,1686.5
+TCSPM,e_shop_sorted.txt,28 212;280,5350,861,7,12.863,1283.0
+TCSPM,e_shop_sorted.txt,28 212;280,5400,765,7,11.204,1343.6
+TCSPM,e_shop_sorted.txt,28 212;280,5450,696,7,10.350,1170.0
+TCSPM,e_shop_sorted.txt,28 212;280,5500,619,7,9.124,1292.8
+TCSPM,e_shop_sorted.txt,28 212;280,4600,4150,27,54.416,1483.1
+TCSPM,e_shop_sorted.txt,28 212;280,4650,3739,27,50.196,1600.7
+TCSPM,e_shop_sorted.txt,28 212;280,4680,3457,27,46.842,1461.2
+TCSPM,online_retail_II_all_products.txt,4578;31471,80,7887,2436,3.375,517.2
+TCSPM+,online_retail_II_all_products.txt,4578;31471,80,4507,2436,2.540,344.1
+TCSPM,online_retail_II_all_products_sorted.txt,4578;31471,80,8402,2978,5.235,512.9
+TCSPM+,online_retail_II_all_products_sorted.txt,4578;31471,80,6119,2978,4.258,485.8
+TCSPM,online_retail_II_best_products.txt,7593;4479 6173;9773,130,113268,2048,19.190,418.8
+TCSPM+,online_retail_II_best_products.txt,7593;4479 6173;9773,130,22071,2048,4.533,497.2
+TCSPM,online_retail_II_best_products.txt,7593;4479 6173;9773,120,137410,2048,26.060,396.4
+TCSPM+,online_retail_II_best_products.txt,7593;4479 6173;9773,120,25626,2048,5.298,410.3
+TCSPM,online_retail_II_best_products.txt,7593;4479 6173;9773,110,199343,4096,33.108,414.6
+TCSPM+,online_retail_II_best_products.txt,7593;4479 6173;9773,110,41566,4096,8.173,498.6
+TCSPM,online_retail_II_best_products.txt,7593;4479 6173;9773,100,327518,10240,47.229,511.5
+TCSPM+,online_retail_II_best_products.txt,7593;4479 6173;9773,100,70059,10240,11.851,508.7
+TCSPM,online_retail_II_best_products.txt,7593;4479 6173;9773,90,575482,24576,74.714,446.8
+TCSPM+,online_retail_II_best_products.txt,7593;4479 6173;9773,90,137773,24576,30.951,367.1
+TCSPM,online_retail_II_best_products.txt,7593;4479 6173;9773,80,990126,49152,198.967,455.8
+TCSPM+,online_retail_II_best_products.txt,7593;4479 6173;9773,80,247261,49152,46.952,449.3
+TCSPM,online_retail_II_best_products.txt,7593;4479 6173;9773,70,1629155,88064,326.733,440.7
+TCSPM+,online_retail_II_best_products.txt,7593;4479 6173;9773,70,415226,88064,65.974,454.2
+TCSPM,online_retail_II_best_products.txt,7593;4479 6173;9773,60,3065368,180224,577.108,539.9
+TCSPM+,online_retail_II_best_products.txt,7593;4479 6173;9773,60,766591,180224,191.376,368.3
+TCSPM,online_retail_II_all_products_sorted.txt,4578;31471,70,13518,4912,15.826,493.9
+TCSPM+,online_retail_II_all_products_sorted.txt,4578;31471,70,9990,4912,12.902,547.7
+TCSPM,online_retail_II_all_products_sorted.txt,4578;31471,60,22909,8646,26.136,597.0
+TCSPM+,online_retail_II_all_products_sorted.txt,4578;31471,60,17005,8646,20.792,559.6
+TCSPM,online_retail_II_all_products_sorted.txt,4578;31471,50,42073,16746,46.098,615.5
+TCSPM+,online_retail_II_all_products_sorted.txt,4578;31471,50,31736,16746,36.597,608.9
+TCSPM,online_retail_II_all_products_sorted.txt,4578;31471,40,86978,37174,82.505,630.8
+TCSPM+,online_retail_II_all_products_sorted.txt,4578;31471,40,66513,37174,63.420,692.4
+TCSPM,online_retail_II_all_products_sorted.txt,4578;31471,30,224217,103508,164.347,688.0
+TCSPM+,online_retail_II_all_products_sorted.txt,4578;31471,30,173501,103508,135.663,666.6
+TCSPM,online_retail_II_all_products_sorted.txt,4578;31471,20,878476,426090,359.252,875.3
+TCSPM+,online_retail_II_all_products_sorted.txt,4578;31471,20,677331,426090,199.392,931.2
+TCSPM,online_retail_II_all_products_sorted.txt,4578;31471,10,12341386,6008892,1542.674,1263.4
+TCSPM+,online_retail_II_all_products_sorted.txt,4578;31471,10,9197606,6008892,1237.779,1207.4
+TCSPM,online_retail_II_all_products_sorted_keepdup.txt,4578;31471,50,42077,16748,24.641,786.5
+TCSPM+,online_retail_II_all_products_sorted_keepdup.txt,4578;31471,50,31740,16748,19.299,781.8
+TCSPM,online_retail_II_all_products_sorted_keepdup.txt,4578;31471,40,86987,37180,45.047,840.6
+TCSPM+,online_retail_II_all_products_sorted_keepdup.txt,4578;31471,40,66521,37180,35.547,919.6
+TCSPM,online_retail_II_all_products_sorted_keepdup.txt,4578;31471,60,22909,8646,19.103,628.0
+TCSPM+,online_retail_II_all_products_sorted_keepdup.txt,4578;31471,60,17005,8646,14.016,624.8
+TCSPM,e_shop.txt,212 28;280,5000,1812,7,34.684,1292.3
+TCSPM+,e_shop.txt,212 28;280,5000,154,7,3.776,831.5
+TCSPM+,e_shop_sorted.txt,10 28;280,4200,1153,76,22.195,1470.6
+TCSPM+,e_shop_sorted.txt,10 28;280,4000,1800,120,31.123,1565.6
+TCSPM,e_shop_sorted.txt,28 212;280,5360,841,7,17.147,1313.9
+TCSPM+,e_shop_sorted.txt,28 212;280,5360,147,7,3.763,829.1
+TCSPM,online_retail_II_all_products_sorted_keepdup.txt,4578;31471,30,224245,103526,116.861,834.0
+1471,30,224245,103526,116.861,834.0
+TCSPM+,e_shop_sorted.txt,28 212;280,5370,142,7,4.210,791.0
+TCSPM,e_shop_sorted.txt,28 212;280,5380,796,7,17.084,1102.0
+TCSPM+,e_shop_sorted.txt,28 212;280,5380,142,7,3.638,880.7
+TCSPM,e_shop_sorted.txt,28 212;280,5390,785,7,15.458,1074.7
+TCSPM+,e_shop_sorted.txt,28 212;280,5390,136,7,3.438,868.5
+TCSPM+,online_retail_II_all_products_sorted_keepdup.txt,4578;31471,30,173527,103526,91.064,829.9
+TCSPM,online_retail_II_all_products_sorted_keepdup.txt,4578;31471,20,878619,426182,262.029,904.8
+TCSPM+,online_retail_II_all_products_sorted_keepdup.txt,4578;31471,20,677463,426182,212.403,947.5
+TCSPM,online_retail_II_all_products_sorted_keepdup.txt,4578;31471,10,12344807,6010610,1717.786,1295.3
+TCSPM+,online_retail_II_all_products_sorted_keepdup.txt,4578;31471,10,9200405,6010610,1357.081,1215.9
