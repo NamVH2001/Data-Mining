@@ -11,9 +11,9 @@ $root = Split-Path $PSScriptRoot -Parent
 $build = Join-Path $env:TEMP "tcspm_build"
 $csv = Join-Path $PSScriptRoot "results.csv"
 
-$src = @("AlgoTCSPM11", "AlgoTCSPM22", "Itemset", "Sequence", "PseudoSequence", "MemoryLogger") |
+$src = @("AlgoTCSPM11", "AlgoTCSPM22", "Itemset", "Sequence", "PseudoSequence", "MemoryLogger", "RunPaperExperiment") |
     ForEach-Object { Join-Path $root "$_.java" }
-javac -encoding UTF-8 -d $build @src (Join-Path $PSScriptRoot "RunPaperExperiment.java")
+javac -encoding UTF-8 -d $build @src
 if ($LASTEXITCODE -ne 0) { throw "javac failed" }
 if (-not (Test-Path $csv)) { "algo,dataset,query,minsup,candidates,patterns,timeSec,maxMemMB" | Set-Content $csv -Encoding UTF8 }
 
